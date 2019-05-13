@@ -72,5 +72,14 @@ namespace Move_Picture
             pictureBox1.Location = new Point(pictureBox1.Location.X + 25, pictureBox1.Location.Y - 50);
             await Task.Delay(500);
         }
+
+        private async void button7_Click(object sender, EventArgs e)
+        {
+            while (pictureBox1.Location.X - 5 > 0)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X - 5, pictureBox1.Location.Y);
+                await Task.Delay(100);
+            }
+        }
     }
 }
