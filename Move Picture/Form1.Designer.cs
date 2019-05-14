@@ -42,9 +42,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Move_Picture.Properties.Resources.lamborghini1;
-            this.pictureBox1.Location = new System.Drawing.Point(334, 138);
+            this.pictureBox1.Location = new System.Drawing.Point(297, 53);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(138, 87);
+            this.pictureBox1.Size = new System.Drawing.Size(243, 164);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
